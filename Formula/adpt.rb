@@ -1,7 +1,7 @@
 class Adpt < Formula
   homepage "https://github.com/adaptive-ml/adpt"
   url "https://github.com/adaptive-ml/adpt/releases/download/v0.1.1/adpt-macos-aarch64.tar.gz"
-  sha256 "eb167f0033caafcc1f613f4edc8f88dd7837e15483e4dc73cb4b35fd792cf1ff"
+  sha256 "6c3f2d62f7fce4346af4b5a59f2b9d1e216a999ca5b1e4d5e77d6776cb25ed40"
 
   test do
     system bin / "adpt", "--version"
