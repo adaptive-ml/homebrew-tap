@@ -1,7 +1,7 @@
 class Adpt < Formula
   homepage "https://github.com/adaptive-ml/adpt"
-  url "https://github.com/adaptive-ml/adpt/releases/download/v0.1.4/adpt-macos-aarch64"
-  sha256 "a461ec1ce6ce80b635f09016d979708cf073bfa15bf6c2a4cfe094a1bbc298e7"
+  url "https://github.com/adaptive-ml/adpt/releases/download/v0.1.5/adpt-macos-aarch64"
+  sha256 "9b2c2751555ae2a4e69f8525b4b3355eb124e5c6d93dc8f1b16c52a43abd64c1"
 
   def install
     bin.install "adpt-macos-aarch64" => "adpt"
